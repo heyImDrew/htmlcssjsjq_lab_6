@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 25px;
+    background-image: url("../resources/bg.png");
+    background-size: 100vw; 
+}
+
+table {
+    margin: 150px;
+}
+
+.container {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+td, th {
+    margin: 25px;
+    text-align: center;
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+td, button {
+    background-color: white;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 25px;
+}
+
+.styleNew {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    text-shadow: 1px 0 5px #C1CDC1, 2px 0 0 #C1CDC1, 4px 1px 0 #C1CDC1, 5px 2px 0 #C1CDC1, 6px 3px 0 #B0C0C0, 6px 3px 0 #B0C0C0, 6px 3px 11px #100, 1px 0 35px #F0FFF0, 6px 3px 45px #98F5FF;  
+}
+
+.sButton {
+    display: none;
+}
